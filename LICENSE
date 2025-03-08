@@ -1,0 +1,14 @@
+
+### Explanation of Steps in the `README.md`:
+
+1. **Cloning the repository**: The user clones your project repository to their local machine.
+2. **Creating and activating a virtual environment**: This isolates the project dependencies from other Python projects the user might have.
+3. **Installing dependencies**: Installs all the necessary Python packages.
+4. **Installing Redis**: Ensures that Redis is installed, which is required for Django Channels to work properly.
+5. **Running the Redis server**: This starts the Redis server that the app will use as the message broker for WebSockets.
+6. **Running database migrations**: Sets up the database tables that Django needs.
+7. **Starting the Django server**: Runs the app on `http://127.0.0.1:8000` for local development.
+8. **Accessing the chat**: Explains how users can join specific chat rooms.
+9. **Sending messages**: Describes how to use the front-end to send messages.
+10. **WebSocket usage**: Gives users an understanding of how the WebSocket protocol is being used to handle real-time communication.
+11. **Troubleshooting**: Offers solutions if users encounter common problems, such as Redis not running or WebSocket connection issues.
